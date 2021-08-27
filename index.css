@@ -86,11 +86,11 @@ button#deal-button {
 }
 
 #dealer-score {
-  top: 24px;
-  right: 24px;
+  top: 12px;
+  right: 12px;
 }
 
 #player-score {
-  bottom: 24px;
-  left: 24px;
+  bottom: 12px;
+  left: 12px;
 }
