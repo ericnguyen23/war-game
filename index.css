@@ -4,7 +4,7 @@ body {
   flex-direction: column;
   margin: 0;
   background-image: url("img/table2.jpeg");
-  height: 100vh;
+  /* height: 100vh; */
   font-family: "Zilla Slab", serif;
   padding: 12px;
   text-align: center;
@@ -26,7 +26,7 @@ h1 {
   padding: 24px;
   margin: 0 24px;
   justify-content: center;
-  min-height: 560px;
+  min-height: 530px;
 }
 
 #cards-container p:first-of-type {
