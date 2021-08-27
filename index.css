@@ -6,7 +6,8 @@ body {
   background-image: url("img/table2.jpeg");
   height: 100vh;
   font-family: "Zilla Slab", serif;
-  padding: 24px;
+  padding: 12px;
+  text-align: center;
 }
 
 h1 {
@@ -24,14 +25,8 @@ h1 {
   color: rgb(152, 177, 131);
   padding: 24px;
   margin: 0 24px;
-  /* 
-  
   justify-content: center;
   min-height: 560px;
-  width: 100%;
-  font-family: "Zilla Slab", serif;
-  
-   */
 }
 
 #cards-container p:first-of-type {
@@ -63,7 +58,7 @@ button {
 }
 
 button#draw-button {
-  margin-top: 24px;
+  margin: 24px;
 }
 button#deal-button {
   background-color: darkgoldenrod;
@@ -75,7 +70,7 @@ button#deal-button {
   margin: 12px auto;
   font-family: "Zilla Slab", serif;
   color: white;
-  font-size: 2rem;
+  font-size: 1.4rem;
 }
 
 #deck-count {
