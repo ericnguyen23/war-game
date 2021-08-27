@@ -21,6 +21,8 @@ const dealCards = () => {
       deckCountText.textContent = "";
       deckCount = 52;
 
+      drawBtn.disabled = false;
+
       setTimeout(() => {
         readyText.textContent = "";
       }, 2000);
