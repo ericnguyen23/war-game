@@ -25,6 +25,11 @@ const dealCards = () => {
       deckCountText.textContent = "";
       deckCount = 52;
 
+      dealerScore = 0;
+      playerScore = 0;
+      dealerScoreText.textContent = "Dealer Score: 0";
+      playerScoreText.textContent = "Player Score: 0";
+
       drawBtn.disabled = false;
 
       setTimeout(() => {
