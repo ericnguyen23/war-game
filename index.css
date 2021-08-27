@@ -1,0 +1,83 @@
+html,
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  background-image: url("img/table2.jpeg");
+  height: 100vh;
+  font-family: "Zilla Slab", serif;
+  padding: 24px;
+}
+
+h1 {
+  color: white;
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+
+#cards-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 8px solid rgb(152, 177, 131);
+  border-radius: 12px;
+  color: rgb(152, 177, 131);
+  padding: 24px;
+  margin: 0 24px;
+  /* 
+  
+  justify-content: center;
+  min-height: 560px;
+  width: 100%;
+  font-family: "Zilla Slab", serif;
+  
+   */
+}
+
+#cards-container p:first-of-type {
+  margin-bottom: 48px;
+}
+
+#card-one,
+#card-two {
+  border: 3px solid rgb(152, 177, 131);
+  border-radius: 5px;
+  height: 150px;
+  width: calc(150px * 5 / 7);
+  padding: 14px;
+}
+
+img.card {
+  width: 100%;
+}
+
+button {
+  background-color: #fff100;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  font-family: "Zilla Slab", serif;
+  font-size: 1.2em;
+  padding: 12px 24px;
+  margin: 0 auto;
+}
+
+button#draw-button {
+  margin-top: 24px;
+}
+button#deal-button {
+  background-color: darkgoldenrod;
+}
+
+#result,
+#ready,
+#deck-count {
+  margin: 12px auto;
+  font-family: "Zilla Slab", serif;
+  color: white;
+  font-size: 2rem;
+}
+
+#deck-count {
+  font-size: 1.2rem;
+}
