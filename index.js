@@ -8,6 +8,10 @@ let resutlText = document.getElementById("result");
 let readyText = document.getElementById("ready");
 let deckCount = 52;
 let deckCountText = document.getElementById("deck-count");
+let dealerScoreText = document.getElementById("dealer-score");
+let playerScoreText = document.getElementById("player-score");
+let dealerScore = 0;
+let playerScore = 0;
 
 const dealCards = () => {
   fetch("https://deckofcardsapi.com/api/deck/new/shuffle/")
@@ -74,8 +78,12 @@ const checkHighCard = (firstCard, secondCard) => {
 
   if (playerVal > dealerVal) {
     resutlText.textContent = "YOU WIN!";
+    playerScore = playerScore + 1;
+    playerScoreText.textContent = `Player Score: ${playerScore}`;
   } else if (dealerVal > playerVal) {
     resutlText.textContent = "YOU LOSE!";
+    dealerScore = dealerScore + 1;
+    dealerScoreText.textContent = `Dealer Score: ${dealerScore}`;
   } else resutlText.textContent = "TIE!";
 };
 

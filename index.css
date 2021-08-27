@@ -20,13 +20,14 @@ h1 {
   display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: center;
   border: 8px solid rgb(152, 177, 131);
   border-radius: 12px;
   color: rgb(152, 177, 131);
-  padding: 24px;
+  padding: 48px 24px 24px 24px;
   margin: 0 24px;
-  justify-content: center;
   min-height: 530px;
+  position: relative;
 }
 
 #cards-container p:first-of-type {
@@ -75,4 +76,21 @@ button#deal-button {
 
 #deck-count {
   font-size: 1.2rem;
+}
+
+#player-score,
+#dealer-score {
+  position: absolute;
+  font-size: 3vh;
+  color: white;
+}
+
+#dealer-score {
+  top: 24px;
+  right: 24px;
+}
+
+#player-score {
+  bottom: 24px;
+  left: 24px;
 }
